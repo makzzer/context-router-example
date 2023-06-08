@@ -1,11 +1,24 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { useUserContext } from "../context/UserContext";
 
 const Navbar = () => {
   const { user, setUser } = useUserContext();
   //el hook useContext --> me permite acceder al estado del UserContext que definí antes
 
-  console.log(user);
+  const navigate = useNavigate();
+
+  //manejo el redireccionamiento desde el LayoutPrivate
+  const cerrarSesion = () => {
+    setUser(false);
+    //navigate("/");
+
+    console.log(user)
+  };
+
+  const iniciarSesion = () => {
+    setUser(true)
+    navigate("/dashboard")
+  }
 
   return (
     <nav className="gap-4 navbar navbar-dark bg-dark p-4 d-flex justify-content-center gap-2 fs-4">
@@ -14,7 +27,7 @@ const Navbar = () => {
           <NavLink to="/"> Home </NavLink>
           <button
             className="btn btn-warning btn-sm"
-            onClick={() => setUser(true)}
+            onClick={iniciarSesion}
           >
             Iniciar sesión
           </button>
@@ -24,8 +37,8 @@ const Navbar = () => {
           <NavLink to="/"> Home </NavLink>
           <NavLink to="/dashboard">Dashboard</NavLink>
           <button
-            className="btn btn-warning btn-sm"
-            onClick={() => setUser(false)}
+            className="btn btn-outline-warning btn-sm"
+            onClick={cerrarSesion}
           >
             Cerrar sesión
           </button>

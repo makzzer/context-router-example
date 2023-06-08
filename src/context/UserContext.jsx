@@ -24,6 +24,6 @@ export default UserProvider;
 export const useUserContext = () => useContext(UserContext);
 
 
-//ver porque no funciona el mio y si el de blueweb, revisar acá y en navbar
+//Guía Blueeweb de useContext / ContextAPI
 
 //https://bluuweb.dev/05-react/06-context-auth.html

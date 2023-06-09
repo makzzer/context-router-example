@@ -1,0 +1,142 @@
+body{
+    background: #f2f2f2;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.barra-lateral{
+background: #262a34;
+color: #fff;
+min-width: 300px;
+min-height: 100vh;
+}
+
+.barra-lateral a {
+    color: #fff;   
+}
+
+/**logo barra lateral**/
+
+.barra-lateral .logo{
+    background-color: #0275db;
+}
+
+.barra-lateral .logo h2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+
+/**Menu**/
+.barra-lateral .menu a{
+    display: block;
+    padding: 20px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500px;
+    border-bottom: 1px solid rgba(255,255,255,.1)
+
+}
+
+.barra-lateral .menu a:hover{
+    background: crimson;
+}
+
+.barra-lateral .menu a svg{
+    margin-right: 10px;
+}
+
+
+/*mediaqueries*/
+
+/*dispositivo xs*/
+@media screen and (max-width: 320px){
+}
+
+/*dispositivo sm*/
+@media screen and (max-width: 576px){
+
+    .barra-lateral {
+        min-height: auto;
+    }
+
+
+}
+
+/*dispositivo md*/
+@media screen and (max-width: 378px){
+}
+
+/*dispositivo lg*/
+@media screen and (max-width: 992px){
+}
+
+/*dispositivo xl*/
+@media screen and (max-width: 1200px){
+    .barra-lateral {
+        min-width: auto;
+    }
+
+    .barra-lateral .logo{
+        display: none;
+    }
+
+    .barra-lateral .menu a svg {
+        display: none;
+    }
+}
+
+/*dispositivo xxl*/
+@media screen and (max-width: 1400px){
+}
+
+/*MAIN**/
+
+.main{
+    padding-top: 40px;
+}
+
+.main .columna {
+    padding: 0 40px;
+}
+
+.main .titulo {
+    color: #262a34;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+
+.main .widget {
+    margin-bottom: 40px;
+}
+
+
+/*Nueva entrada*/
+
+.main .nueva-entrada form input [type="text"],
+.main .nueva-entrada form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,.3);
+
+}
+
+
+.main .nueva-entrada form textarea{
+    height: 400px;
+    min-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+}

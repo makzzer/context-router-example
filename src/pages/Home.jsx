@@ -14,11 +14,8 @@ const Home = () => {
 
     //despues redirijo al usuario al dashboard despues de loguearse
     navigate("/dashboard");
+   // console.log("handlelogin" + user);
   };
-
-  console.log(user)
-
-
 
   return (
     <>

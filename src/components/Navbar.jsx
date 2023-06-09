@@ -12,23 +12,22 @@ const Navbar = () => {
     setUser(false);
     //navigate("/");
 
-    console.log(user)
+    //console.log("el navbaarrr" + user);
   };
 
   const iniciarSesion = () => {
-    setUser(true)
-    navigate("/dashboard")
-  }
+    setUser(true);
+    navigate("/dashboard");
+  };
+
+  //console.log("iniciar sesion" + user);
 
   return (
     <nav className="gap-4 navbar navbar-dark bg-dark p-4 d-flex justify-content-center gap-2 fs-4">
       {!user ? (
         <>
           <NavLink to="/"> Home </NavLink>
-          <button
-            className="btn btn-warning btn-sm"
-            onClick={iniciarSesion}
-          >
+          <button className="btn btn-warning btn-sm" onClick={iniciarSesion}>
             Iniciar sesión
           </button>
         </>

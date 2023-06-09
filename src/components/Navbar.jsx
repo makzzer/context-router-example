@@ -16,11 +16,11 @@ const Navbar = () => {
   };
 
   const iniciarSesion = () => {
-    setUser(true);
+    setUser({name:"makzzzer"});
     navigate("/dashboard");
   };
 
-  //console.log("iniciar sesion" + user);
+  console.log("iniciar sesion" + user);
 
   return (
     <nav className="gap-4 navbar navbar-dark bg-dark p-4 d-flex justify-content-center gap-2 fs-4">

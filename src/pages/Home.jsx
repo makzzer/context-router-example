@@ -10,7 +10,10 @@ const Home = () => {
   //alias iniciarSesion
   const handleLogin = () => {
     //primero cambio el usuario a true, osea logueado
-    setUser(true);
+    setUser({
+      name: "makzzzzer",
+      email: "makzofx@gmail.com",
+    });
 
     //despues redirijo al usuario al dashboard despues de loguearse
     navigate("/dashboard");

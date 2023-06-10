@@ -166,7 +166,7 @@ const Dashboard = () => {
                     <div className="foto">
                       <a href="#">
                         <img
-                          src="https://drive.google.com/file/d/1-Pin6aF3zZ9yoocFCvKBRgOlovPPkkWQ/view?usp=sharing"
+                          src="src\assets\img\persona1.jpg"
                           alt=""
                           width="100"
                         />

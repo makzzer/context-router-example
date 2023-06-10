@@ -156,6 +156,235 @@ const Dashboard = () => {
                     </div>
                   </div>
                 </div>
+
+                <div className="widget comentarios">
+                  <h3 className="titulo">Comentarios</h3>
+
+                <div className="contenedor">
+
+                <div className="comentario d-flex flex-wrap">
+                    <div className="foto">
+                      <a href="#">
+                        <img
+                          src="src\assets\img\persona1.jpg"
+                          alt=""
+                          width="100"
+                        />
+                      </a>
+                    </div>
+
+                    <div className="texto">
+                      <a href="#">John Weak</a>
+                      <p>
+                        en <a href="#">Mi primera entrada</a>
+                      </p>
+                      <p className="texto-comentario">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Optio delectus blanditiis suscipit quo rerum atque
+                        vero culpa sint aliquam voluptatum molestias iste saepe,
+                        doloribus amet. Et atque aliquid reiciendis delectus.
+                      </p>
+                    </div>
+
+                    <div className="botones d-flex  justify-content-start flex-wrap w-100">
+                      <button className="aprobar">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check2"
+                          viewBox="0 0 16 16"
+                        >
+                          <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                        </svg>
+                        Aprobar{" "}
+                      </button>
+                      <button className="eliminar">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-trash3-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z" />
+                        </svg>
+                           Eliminar
+                      </button>
+                      <button className="bloquear">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-cloud-slash"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M3.112 5.112a3.125 3.125 0 0 0-.17.613C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13H11l-1-1H3.781C2.231 12 1 10.785 1 9.318c0-1.365 1.064-2.513 2.46-2.666l.446-.05v-.447c0-.075.006-.152.018-.231l-.812-.812zm2.55-1.45-.725-.725A5.512 5.512 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773a3.2 3.2 0 0 1-1.516 2.711l-.733-.733C14.498 11.378 15 10.626 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3c-.875 0-1.678.26-2.339.661z"
+                          />
+                          <path d="m13.646 14.354-12-12 .708-.708 12 12-.707.707z" />
+                        </svg>
+                        Bloquear
+                      </button>
+                    </div>
+                  </div>
+
+                  
+                <div className="comentario d-flex flex-wrap">
+                    <div className="foto">
+                      <a href="#">
+                        <img
+                          src="src\assets\img\persona3.jpg"
+                          alt=""
+                          width="100"
+                        />
+                      </a>
+                    </div>
+
+                    <div className="texto">
+                      <a href="#">Darth Vader</a>
+                      <p>
+                        en <a href="#">Mi primera entrada</a>
+                      </p>
+                      <p className="texto-comentario">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Optio delectus blanditiis suscipit quo rerum atque
+                        vero culpa sint aliquam voluptatum molestias iste saepe,
+                        doloribus amet. Et atque aliquid reiciendis delectus.
+                      </p>
+                    </div>
+
+                    <div className="botones d-flex  justify-content-start flex-wrap w-100">
+                      <button className="aprobar">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check2"
+                          viewBox="0 0 16 16"
+                        >
+                          <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                        </svg>
+                        Aprobar{" "}
+                      </button>
+                      <button className="eliminar">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-trash3-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z" />
+                        </svg>
+                           Eliminar
+                      </button>
+                      <button className="bloquear">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-cloud-slash"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M3.112 5.112a3.125 3.125 0 0 0-.17.613C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13H11l-1-1H3.781C2.231 12 1 10.785 1 9.318c0-1.365 1.064-2.513 2.46-2.666l.446-.05v-.447c0-.075.006-.152.018-.231l-.812-.812zm2.55-1.45-.725-.725A5.512 5.512 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773a3.2 3.2 0 0 1-1.516 2.711l-.733-.733C14.498 11.378 15 10.626 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3c-.875 0-1.678.26-2.339.661z"
+                          />
+                          <path d="m13.646 14.354-12-12 .708-.708 12 12-.707.707z" />
+                        </svg>
+                        Bloquear
+                      </button>
+                    </div>
+                  </div>
+
+
+
+                  
+                <div className="comentario d-flex flex-wrap">
+                    <div className="foto">
+                      <a href="#">
+                        <img
+                          src="src\assets\img\persona2.jpg"
+                          alt=""
+                          width="100"
+                        />
+                      </a>
+                    </div>
+
+                    <div className="texto">
+                      <a href="#">Tony Stark</a>
+                      <p>
+                        en <a href="#">Mi primera entrada</a>
+                      </p>
+                      <p className="texto-comentario">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Optio delectus blanditiis suscipit quo rerum atque
+                        vero culpa sint aliquam voluptatum molestias iste saepe,
+                        doloribus amet. Et atque aliquid reiciendis delectus.
+                      </p>
+                    </div>
+
+                    <div className="botones d-flex  justify-content-start flex-wrap w-100">
+                      <button className="aprobar">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check2"
+                          viewBox="0 0 16 16"
+                        >
+                          <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                        </svg>
+                        Aprobar{" "}
+                      </button>
+                      <button className="eliminar">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-trash3-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z" />
+                        </svg>
+                           Eliminar
+                      </button>
+                      <button className="bloquear">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-cloud-slash"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M3.112 5.112a3.125 3.125 0 0 0-.17.613C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13H11l-1-1H3.781C2.231 12 1 10.785 1 9.318c0-1.365 1.064-2.513 2.46-2.666l.446-.05v-.447c0-.075.006-.152.018-.231l-.812-.812zm2.55-1.45-.725-.725A5.512 5.512 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773a3.2 3.2 0 0 1-1.516 2.711l-.733-.733C14.498 11.378 15 10.626 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3c-.875 0-1.678.26-2.339.661z"
+                          />
+                          <path d="m13.646 14.354-12-12 .708-.708 12 12-.707.707z" />
+                        </svg>
+                        Bloquear
+                      </button>
+                    </div>
+                  </div>
+
+
+
+                </div>
+
+
+                </div>
               </div>
             </div>
           </main>

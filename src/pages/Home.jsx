@@ -22,11 +22,11 @@ const Home = () => {
 
   return (
     <>
-      <div className="m-2 d-flex gap-3">
+      <div className="m-2 d-flex gap-3 min-h-100vw">
         <h1 className="">Home</h1>
         {!user && (
           <>
-            <button className="btn btn-dark" onClick={handleLogin}>
+            <button className="btn btn-dark d-none" onClick={handleLogin}>
               Login
             </button>
           </>

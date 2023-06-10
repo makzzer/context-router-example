@@ -102,11 +102,15 @@ const Dashboard = () => {
 
           <main className="col main">
             <div className="row">
-              <div className="col columna col-7">
+              <div className="col columna col-12 col-lg-7">
                 <div className="widget nueva-entrada">
-                  <h3 className="nueva_entrada">Nueva Entrada </h3>
+                  <h3 className="nueva-entrada">Nueva Entrada </h3>
                   <form action="">
-                    <input type="text" placeholder="Titulo de la entrada" />
+                    <input
+                      type="text"
+                      className="form-control"
+                      placeholder="Titulo de la entrada"
+                    />
                     <textarea placeholder="lorem">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Repudiandae, facere?
@@ -131,7 +135,28 @@ const Dashboard = () => {
                 </div>
               </div>
 
-              <div className="col col-5"></div>
+              <div className="col col-12 col-lg-5">
+                <div className="widget estadisticas">
+                  <h3 className="titulo">Estadisticas</h3>
+
+                  <div className="contenedor d-flex flex-wrap">
+                    <div className="caja">
+                      <h3>15,236</h3>
+                      <p>Visitas</p>
+                    </div>
+
+                    <div className="caja">
+                      <h3>12,204</h3>
+                      <p>Registros</p>
+                    </div>
+
+                    <div className="caja">
+                      <h3>$20,350</h3>
+                      <p>Ingresos</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </main>
         </div>

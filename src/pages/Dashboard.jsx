@@ -166,7 +166,7 @@ const Dashboard = () => {
                     <div className="foto">
                       <a href="#">
                         <img
-                          src="src\assets\img\persona1.jpg"
+                          src="https://ficquotes.com/images/characters/john-wick-john-wick-2014.jpg"
                           alt=""
                           width="100"
                         />
@@ -174,7 +174,7 @@ const Dashboard = () => {
                     </div>
 
                     <div className="texto">
-                      <a href="#">John Weak</a>
+                      <a href="#">John Wick</a>
                       <p>
                         en <a href="#">Mi primera entrada</a>
                       </p>
@@ -238,7 +238,7 @@ const Dashboard = () => {
                     <div className="foto">
                       <a href="#">
                         <img
-                          src="src\assets\img\persona3.jpg"
+                          src="https://th.bing.com/th/id/R.a9770268702bd932a86d90f079d26595?rik=9l3VKaC6Mg69sw&pid=ImgRaw&r=0"
                           alt=""
                           width="100"
                         />
@@ -312,7 +312,7 @@ const Dashboard = () => {
                     <div className="foto">
                       <a href="#">
                         <img
-                          src="src\assets\img\persona2.jpg"
+                          src="https://i.pinimg.com/736x/5c/3a/b0/5c3ab0f85616b8cdde696482556f887b.jpg"
                           alt=""
                           width="100"
                         />
